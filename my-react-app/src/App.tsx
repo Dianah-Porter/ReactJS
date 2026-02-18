@@ -1,6 +1,7 @@
 import HelloMessage from "./HelloMessage";
 import Great from "./Great";
-import Mapc from "./components/mapc"
+import Mapc from "./components/Mapc";
+import Calculate from "./components/jsxE";
 
 
 function Footer (){
@@ -14,6 +15,7 @@ function App() {
       <Great/>
       <Footer/>
       <Mapc/>
+      <Calculate/>
 
     </div>
   );

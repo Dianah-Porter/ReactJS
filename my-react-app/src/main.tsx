@@ -4,4 +4,4 @@ import './App.css'
 
 createRoot(document.getElementById('root')!).render(
   <App/>
-)    //! for null 
+)    //! for null  this is used to render elements that will be displayed on the screen 
