@@ -2,9 +2,11 @@ import HelloMessage from "./HelloMessage";
 import Great from "./Great";
 import Mapc from "./components/Mapc";
 import Calculate from "./components/JsxE";
-import Props from "./components/props";
+import Props from "./components/Props";
 import Cars from "./components/Destructuring";
 import Parent from "./components/Pchildren";
+import Football from "./components/events";
+import Goal from "./components/conditionals";
 
 
 function Footer (){
@@ -25,6 +27,8 @@ function App() {
       <Props years={x} info={y}/>
       <Cars color="Red" brand="Mustang" year={1969} model="Suzuki" />
       <Parent />
+      <Football />
+      <Goal isGoal={false}/>
     </div>
   );
 }
