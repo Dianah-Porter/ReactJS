@@ -13,4 +13,12 @@ function Goal(props: any){
         return <MissedGoal />
     }
 }
+//Logical and &&
+/* function Car(props) {
+  return (
+    <>
+      {props.brand && <h1>My car is a {props.brand}!</h1>}
+    </>
+  );
+}  */
 export default Goal;
