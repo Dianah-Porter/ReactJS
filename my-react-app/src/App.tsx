@@ -7,6 +7,8 @@ import Cars from "./components/Destructuring";
 import Parent from "./components/Pchildren";
 import Football from "./components/events";
 import Goal from "./components/conditionals";
+import MyCars from "./components/lists";
+import MyCarss from "./components/keys";
 
 
 function Footer (){
@@ -29,6 +31,8 @@ function App() {
       <Parent />
       <Football />
       <Goal isGoal={false}/>
+      <MyCars/>
+      <MyCarss/>
     </div>
   );
 }
