@@ -9,6 +9,7 @@ import Football from "./components/events";
 import Goal from "./components/conditionals";
 import MyCars from "./components/lists";
 import MyCarss from "./components/keys";
+import MyForm from "./components/form"
 
 
 function Footer (){
@@ -33,6 +34,7 @@ function App() {
       <Goal isGoal={false}/>
       <MyCars/>
       <MyCarss/>
+      <MyForm/>
     </div>
   );
 }
