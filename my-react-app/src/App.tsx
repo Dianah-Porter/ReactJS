@@ -11,6 +11,7 @@ import MyCars from "./components/lists";
 import MyCarss from "./components/keys";
 import MyForm from "./components/form"
 import OnSubmit from "./components/Submit";
+import TextArea from "./components/TextArea";
 
 
 function Footer (){
@@ -37,6 +38,8 @@ function App() {
       <MyCarss/>
       <MyForm/>
       <OnSubmit/>
+      <TextArea/>
+      
     </div>
   );
 }
