@@ -10,6 +10,7 @@ import Goal from "./components/conditionals";
 import MyCars from "./components/lists";
 import MyCarss from "./components/keys";
 import MyForm from "./components/form"
+import OnSubmit from "./components/Submit";
 
 
 function Footer (){
@@ -35,6 +36,7 @@ function App() {
       <MyCars/>
       <MyCarss/>
       <MyForm/>
+      <OnSubmit/>
     </div>
   );
 }
