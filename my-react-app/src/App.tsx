@@ -12,7 +12,9 @@ import MyCarss from "./components/keys";
 import MyForm from "./components/form"
 import OnSubmit from "./components/Submit";
 import TextArea from "./components/TextArea";
-import Select from "./components/Select"
+import Select from "./components/Select";
+import MultipleInputs from "./components/multiplei";
+
 
 
 function Footer (){
@@ -41,6 +43,7 @@ function App() {
       <OnSubmit/>
       <TextArea/>
       <Select/>
+      <MultipleInputs/>
 
     </div>
   );
