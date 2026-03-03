@@ -14,6 +14,7 @@ import OnSubmit from "./components/Submit";
 import TextArea from "./components/TextArea";
 import Select from "./components/Select";
 import MultipleInputs from "./components/multiplei";
+import Radio from "./components/radio";
 
 
 
@@ -27,6 +28,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello World!</h1>
+      <Radio/>
       <HelloMessage/>
       <Great/>
       <Footer/>
